@@ -35,7 +35,7 @@ def lambda_handler(event, context):
 
     try: 
         body = json.loads(event['body'])
-    except TypeError:
+    except KeyError:
         if event['action'] == 'HISTORY_TRANSACTION':
             return send_transaction_history_to_customers()
     return compute(event, context)
