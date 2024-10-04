@@ -2,7 +2,6 @@
 
 ![](<Architecture App.png>)
 
-
 ## Fonctionnalités :
 - Notification par mail
 - Schedule des opérations
@@ -38,3 +37,4 @@
 - **CLOUDWATCH** : Service de surveillance qui collecte et suit les métriques, les journaux, et les événements pour les ressources AWS.
   - **Logs Groups** : Regroupe les journaux pour une gestion et une analyse centralisées.
 
+## [Processus d'Implémentation des Notifications d'Opérations Bancaires avec AWS](process.md)
