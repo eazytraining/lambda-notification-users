@@ -1,0 +1,21 @@
+{
+    "Statement": [
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:Query",
+                "dynamodb:DeleteItem",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:dynamodb:eu-west-1:312601499315:table/eazycarddb-dynamodb",
+                "arn:aws:dynamodb:eu-west-1:312601499315:table/eazycard-request-dynamodb"
+            ]
+        }
+    ],
+    "Version": "2012-10-17"
+}
