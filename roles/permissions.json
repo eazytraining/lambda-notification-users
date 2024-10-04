@@ -17,6 +17,16 @@
             ]
         },
         {
+            "Action": "secretsmanager:GetSecretValue",
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Action": "logs:CreateLogGroup",
+            "Effect": "Allow",
+            "Resource": "arn:aws:logs:eu-west-1:312601499315:*"
+        },
+        {
             "Action": [
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
